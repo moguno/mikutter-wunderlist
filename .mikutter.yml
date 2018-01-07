@@ -3,7 +3,7 @@ slug: :mikutter-wunderlist
 depends:
   mikutter: 3.6.0
   plugin:
-version: '0.0.1'
+version: '0.0.2'
 author: moguno
 name: mikutter-wunderlist
 description: Wonderlist World
