@@ -43,10 +43,6 @@ Plugin.create(:"mikutter-wunderlist") {
             )
           }
 
-puts "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
-puts messages.count
-puts source[:slug]
-
           Plugin.call(:extract_receive_message, source[:slug], messages)
         }
       }
